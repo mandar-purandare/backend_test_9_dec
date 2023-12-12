@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start-user": "nodemon index.user.js",
-    "start-task": "nodemon index.taks.js"
+    "start": "nodemon index.js"
   },
   "author": "mandar",
   "license": "ISC",
@@ -15,6 +14,7 @@
     "express": "^4.18.2",
     "mongoose": "^8.0.3",
     "morgan": "^1.10.0",
+    "nats": "^2.0.0-21",
     "nodemon": "^3.0.2"
   },
   "type": "module"
